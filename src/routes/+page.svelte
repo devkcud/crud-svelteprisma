@@ -45,6 +45,15 @@
   <button type="submit">Create</button>
 </form>
 
+<article>
+  <h2>Hey! <span>(69 May 420)</span></h2>
+  <p>You can create, view and delete posts as you want, not this one tho, this one is special</p>
+
+  <button disabled>Delete</button>
+  <span>View</span>
+  <span>Edit</span>
+</article>
+
 {#each articles as article}
   <article>
     <h2>{article.title} <span>({formatDate(article.publishDate)})</span></h2>
